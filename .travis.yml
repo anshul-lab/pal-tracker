@@ -13,7 +13,7 @@ jobs:
   include:
     - stage: build and publish
       language: java
-      jdk: 1.8.0.+
+      jdk: openjdk8
       install: skip
       script:
         - APPLICATION=pal-tracker
